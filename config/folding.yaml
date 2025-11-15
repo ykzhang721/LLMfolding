@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+  - dataset: dataset1_dist
+  - lm: qwen3
+  - trainer: sft
+
+name: dummy
+dataset:
+  train_task: folding_lm
+  eval_task: folding_lm
+  
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .

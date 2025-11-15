@@ -1,0 +1,3 @@
+type:           dist
+fpath_train:    /GenSIvePFS/users/zhangyk/llmfolding/dataset/s2s_v1/s2s_50000_train.json
+fpath_eval:     /GenSIvePFS/users/zhangyk/llmfolding/dataset/s2s_v1/s2s_50000_val.json
